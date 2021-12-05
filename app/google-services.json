@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "479064785485",
+    "project_id": "cis357finalproject-44aff",
+    "storage_bucket": "cis357finalproject-44aff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479064785485:android:a31b5f2242f3938e715204",
+        "android_client_info": {
+          "package_name": "edu.gvsu.cis.notificationfirebasemessagingdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479064785485-mt15325q4i2hdkon1vid429nthg1ahfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.gvsu.cis.notificationfirebasemessagingdemo",
+            "certificate_hash": "b16f2b7c9ca33dc81aa687f5d2ebbca2bcaf7f35"
+          }
+        },
+        {
+          "client_id": "479064785485-pmn8f0no785ha8orqernuc41r83f7lni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCehVPxLxWtbhOKuEziJGCqm59ghFv_VXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479064785485-pmn8f0no785ha8orqernuc41r83f7lni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
