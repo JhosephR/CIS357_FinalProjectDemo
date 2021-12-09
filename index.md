@@ -10,10 +10,9 @@ This tutorial is a simple application that uses the user interface of Notificati
 </p>
 **Figure 1. Final product. Notification box on the left, and notification layout on the right.** 
 
+## Getting Started
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We will be using Android Studio. To download it, go to this link: (https://developer.android.com/studio)
 
 ```markdown
 Syntax highlighted code block
