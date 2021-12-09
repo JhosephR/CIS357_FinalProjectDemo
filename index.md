@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+# Notifications / Firebase Cloud Messaging – Android
 
-You can use the [editor on GitHub](https://github.com/JhosephR/CIS357_FinalProjectDemo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This tutorial is a simple application that uses the user interface of Notifications from Android, and Cloud Messaging services from Firebase in Kotlin. Firebase – Cloud Messaging (FCM) is a solution for sending messages across devices, and notification across platforms for free. In this project, we will show how to create a notification and send a message using this service.
 
 ### Markdown
 
