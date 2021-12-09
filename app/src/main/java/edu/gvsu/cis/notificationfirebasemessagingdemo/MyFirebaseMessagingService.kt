@@ -1,5 +1,6 @@
 package edu.gvsu.cis.notificationfirebasemessagingdemo
 
+import android.annotation.SuppressLint
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -16,16 +17,13 @@ const val channelName = "edu.gvsu.cis.notificationfirebasemessagingdemo"
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
 
-    //Generate notification
-    //attach the notification created with the custom layout
-    //show the notification
-
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         if (remoteMessage.getNotification() != null) {
             generateNotification(remoteMessage.notification!!.title!!, remoteMessage.notification!!.body!!)
         }
     }
 
+    @SuppressLint("RemoteViewLayout")
     fun getRemoteView(title: String, message: String): RemoteViews {
         val remoteView = RemoteViews("edu.gvsu.cis.notificationfirebasemessagingdemo", R.layout.notification)
 
