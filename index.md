@@ -215,5 +215,10 @@ fun generateNotification(title: String, message: String) {
 
 Now, let’s create an intent for the user notification.
 
-<p><span style="color:blue">Step 24:</span> Add the following code within the function we recently created:</p>
+**Step 24:** Add the following code within the function we recently created:
+```kotlin
+val intent = Intent(this, MainActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) //Clear all activity on activity stack, and puts this activity at the top
 
+        val pendingIntent = PendingIntent.getActivity(this,0,intent, PendingIntent.FLAG_ONE_SHOT)
+```
