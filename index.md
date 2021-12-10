@@ -325,7 +325,7 @@ You can skip the optional fields, and press the Next button.
 
 **Step 34:** Select your package name as shown below and click on Next.
 <p align="center">
-  <img src="images/firebase7.PNG" width="800" height="350" />
+  <img src="images/firebase7.PNG" width="7500" height="500" />
 </p>
 <p align="center">
   Figure 8. Compose notification - Target.
@@ -343,7 +343,7 @@ You can skip the optional fields, and press the Next button.
 
 Right after that, your app will receive the notification, and it will look similar to figure 10.
 <p align="center">
-  <img src="images/virtual_phone.JPG" width="350" />
+  <img src="images/virtual_phone.JPG" width="300" />
 </p>
 <p align="center">
   Figure 10. A message from Akatsuki is shown as a new notification.
