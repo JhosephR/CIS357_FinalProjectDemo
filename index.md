@@ -159,3 +159,40 @@ android:layout_height="match_parent">
 </RelativeLayout>
 ```
 
+**Step 21:** Next, we will add the logo for our app. Add the following code within the second RelativeLayout:
+```kotlin
+<ImageView
+    android:id="@+id/app_logo"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:src="@drawable/akatzuki1" />
+```
+
+**Step 22:** Let’s add the title and the message. Add the following code after ImageView within the second RelativeLayout:
+```kotlin
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_toRightOf="@+id/app_logo"
+    android:text="Title"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/title"
+    android:layout_marginLeft="10dp"
+    android:layout_toRightOf="@+id/app_logo"
+    android:text="This is the message"
+    android:textSize="20sp" />
+```
+
+Your notification will look similar to this:
