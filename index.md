@@ -45,12 +45,16 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 7:** Add the following to your Project-level **build.gradle.**
 
-```markdown
-classpath 'com.google.gms:google-services:4.3.10'
-<p>Some Markdown text with <span style="color:green">classpath 'com.google.gms:google-services:4.3.10'</span>.</p>
-```
 <p>classpath <span style="color:green"> 'com.google.gms:google-services:4.3.10'</span>.</p>
 
+**Step 8:** Add the following at the bottom of your App-level build.graddle.
+<p>apply <span style="color:green"> plugin: 'com.android.application'</p>
+apply <span style="color:green"> plugin: 'com.google.gms.google-services'</p>
+
+Step 9: Add the following inside of the dependencies block of your App-level build.graddle.
+<p>implementation <span style="color:green"> 'com.google.firebase:firebase-messaging-ktx'</p>
+<p>implementation <span style="color:green">'com.google.firebase:firebase-messaging-ktx:23.0.0'</p>
+<p>implementation <span style="color:green">'com.google.firebase:firebase-analytics-ktx'</p>
 
 
 ```markdown
