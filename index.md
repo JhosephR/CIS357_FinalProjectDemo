@@ -315,7 +315,7 @@ After successfully running the app, the only thing left to do is to send a notif
 
 **Step 33:** Click on the Send your first message button and follow the instructions.
 <p align="center">
-  <img src="images/firebase5.PNG" width="800" />
+  <img src="images/firebase5.PNG" width="750" height="400" />
 </p>
 <p align="center">
   Figure 7. Compose notification - Notification.
@@ -335,7 +335,7 @@ You can skip the optional fields, and press the Next button.
 
 **Step 36:** Click on the publish button as shown in figure 9, and switch over to your Android app.
 <p align="center">
-  <img src="images/firebase8.PNG" width="500" />
+  <img src="images/firebase8.PNG" width="600" height="350"/>
 </p>
 <p align="center">
   Figure 9. Compose notification – Review message.
@@ -343,7 +343,7 @@ You can skip the optional fields, and press the Next button.
 
 Right after that, your app will receive the notification, and it will look similar to figure 10.
 <p align="center">
-  <img src="images/virtual_phone.JPG" width="500" />
+  <img src="images/virtual_phone.JPG" width="350" />
 </p>
 <p align="center">
   Figure 10. A message from Akatsuki is shown as a new notification.
