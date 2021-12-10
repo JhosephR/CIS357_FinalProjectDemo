@@ -58,7 +58,28 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 10:** Finally, press “Sync now” at the top right corner in the bar that appears in the IDE. Then, press the Next and Continue to console buttons. Now we are ready to start coding.
   
-  
+## Step-by-step Coding Instructions
+ 
+Let’s begin by modifying the layout file.
+
+**Step 11:** Open activity_main.xml, which can be found within the layout folder. Let’s customize the default Text View with the following values:
+
+```markdown
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome to Final Demo App!"
+    android:textSize="40dp"
+    android:padding="20dp"
+    android:textColor="#6320EE"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+```
+ 
+ 
 ```markdown
 Syntax highlighted code block
 
