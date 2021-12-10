@@ -137,3 +137,25 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 }
 ```
 
+**Step 18:** Create the custom layout for the notification. Go to res/layout and right click on layout folder. Go to New>Layout Resource File and name it notification. Press the OK button.
+
+**Step 19:** In the notification.xml file, go to Code (on the top right corner), and replace all the code with the following:
+```kotlin
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</RelativeLayout>
+```
+
+**Step 20:** Add another RelativeLayout within the existing RelativeLayout with the following code:
+```kotlin
+<RelativeLayout
+android:layout_width="wrap_content"
+android:padding="10dp"
+android:layout_height="match_parent">
+
+</RelativeLayout>
+```
+
