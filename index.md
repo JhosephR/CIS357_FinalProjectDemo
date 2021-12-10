@@ -366,6 +366,9 @@ Finally, once you tap on the received notification, you will be directed to the 
 
 Lastly, this is how we use Android Studio, and Firebase Cloud Messaging to create, send and receive notifications.
 
-<video src="video/appDemo.mkv" controls="controls" style="max-width: 730px;">
-</video>
+<p align="center">
+  <video src="video/appDemo.mkv" controls="controls" style="max-width: 1000px;">
+  </video>
+</p>
+
 
