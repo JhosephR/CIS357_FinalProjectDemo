@@ -1,6 +1,6 @@
 # Notifications / Firebase Cloud Messaging – Android
 
-## Final project for CIS 357.
+ ## CIS 357 Final project
 
 Tutorial on how to create this application is: [here].
 
