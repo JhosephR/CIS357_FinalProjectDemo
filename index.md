@@ -315,7 +315,7 @@ After successfully running the app, the only thing left to do is to send a notif
 
 **Step 33:** Click on the Send your first message button and follow the instructions.
 <p align="center">
-  <img src="images/firebase5.PNG" width="750" height="500" />
+  <img src="images/firebase5.PNG" width="750" height="550" />
 </p>
 <p align="center">
   Figure 7. Compose notification - Notification.
@@ -348,3 +348,19 @@ Right after that, your app will receive the notification, and it will look simil
 <p align="center">
   Figure 10. A message from Akatsuki is shown as a new notification.
 </p>
+
+Since we are using a free tool as FCM, sometimes it might take a while for the notification to arrive. You can also track your sent message by clicking again on Cloud Messaging as shown in figure 11.
+<p align="center">
+  <img src="images/firebase9.PNG" width="600" />
+</p>
+<p align="center">
+  Figure 11. Cloud Messaging.
+</p>
+
+This tutorial is based on “Create a Notification” from (https://developer.android.com/training/notify-user/build-notification), “Set up an Android client” and “Send a test message” from (https://firebase.google.com/docs/cloud-messaging/android/client) 
+
+##Further Discussion/Conclusions
+
+Finally, once you tap on the received notification, you will be directed to the home page of your app. Notice that before sending a message through Firebase, you need to have your app up and running. Otherwise, you will not receive a notification until the next time you run/open your app. Also, this tutorial was created with a targeting audience of Android 9.0 Pie or greater. 
+
+Lastly, this is how we use Android Studio, and Firebase Cloud Messaging to create, send and receive notifications.
