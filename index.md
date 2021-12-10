@@ -16,7 +16,7 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
 
-<p float="center">
+<p align="center">
   <img src="images/Android_studio2.JPG" width="800" alt="Sublime's custom image" />
 </p>
 **Figure 2. Select Empty Activity**
@@ -25,11 +25,11 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 3:** Connect our app to Firebase. Simply go to (https://console.firebase.google.com) with your google account and create a new project. Follow the steps until you get a message saying: *“Your new project is ready”*, and press the Continue button.
 
-Step 4: Once your project is created click on the Android logo near the middle level of “Project Overview” page.
+**Step 4:** Once your project is created click on the Android logo near the middle level of “Project Overview” page.
 
-Step 5: Now, let’s give it a desired package name. I chose “CIS357FinalProject”. You can leave empty the fields of App nickname (optional), and Debug signing certificate SHA-1 (optional). Make sure it matches the package identifier in your project’s manifest.xml. Click on Register app button.
+**Step 5:** Now, let’s give it a desired package name. I chose “CIS357FinalProject”. You can leave empty the fields of App nickname (optional), and Debug signing certificate SHA-1 (optional). Make sure it matches the package identifier in your project’s manifest.xml. Click on Register app button.
 
-Step 6: Download the google-services.json file to your gradle build directory (the app sub-directory.) as shown in figure 3. Then, click on Next button.
+**Step 6:** Download the google-services.json file to your gradle build directory (the app sub-directory.) as shown in figure 3. Then, click on Next button.
 
 
 
