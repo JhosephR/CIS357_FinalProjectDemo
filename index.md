@@ -32,7 +32,7 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 **Step 6:** Download the google-services.json file to your gradle build directory (the app sub-directory.) as shown in figure 3. Then, click on Next button.
 
 <p align="center">
-  <img src="images/Firebase3.JPG" width="800" alt="Sublime's custom image" />
+  <img src="images/Firebase3.JPG" width="600" alt="Sublime's custom image" />
 </p>
 
 **Figure 3. Download the JSON file.**
