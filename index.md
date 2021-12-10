@@ -15,7 +15,7 @@ This tutorial is a simple application that uses the user interface of Notificati
 
 ## Getting Started
 
-We will be using Android Studio. To download it, go to this link: (https://developer.android.com/studio)
+We will be using Android Studio. To download it, go to this link: "https://developer.android.com/studio"
 
 **Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
 
@@ -28,7 +28,7 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 2:** Give it a name, which in this case I chose *NotificationFirebaseMessagingDemo*. A desired Package name. Choose Language Kotlin, and a Minimum SDK of API 28: Android 9.0 (Pie), and press Finish.
 
-**Step 3:** Connect our app to Firebase. Simply go to (https://console.firebase.google.com) with your google account and create a new project. Follow the steps until you get a message saying: *“Your new project is ready”*, and press the Continue button.
+**Step 3:** Connect our app to Firebase. Simply go to "https://console.firebase.google.com" with your google account and create a new project. Follow the steps until you get a message saying: *“Your new project is ready”*, and press the Continue button.
 
 **Step 4:** Once your project is created click on the Android logo near the middle level of “Project Overview” page.
 
