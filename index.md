@@ -352,7 +352,7 @@ Right after that, your app will receive the notification, and it will look simil
 
 Since we are using a free tool as FCM, sometimes it might take a while for the notification to arrive. You can also track your sent message by clicking again on Cloud Messaging as shown in figure 11.
 <p align="center">
-  <img src="images/firebase9.PNG" width="850" />
+  <img src="images/firebase9.PNG" width="950" />
 </p>
 <p align="center">
   Figure 11. Cloud Messaging.
