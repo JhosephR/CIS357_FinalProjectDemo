@@ -309,3 +309,14 @@ After successfully running the app, the only thing left to do is to send a notif
 <p align="center">
   <img src="images/firebase6.PNG" width="700" />
 </p>
+<p align="center">
+  Figure 6. Firebase Console.
+</p>
+
+**Step 33:** Click on the Send your first message button and follow the instructions.
+<p align="center">
+  <img src="images/firebase5.PNG" width="500" />
+</p>
+<p align="center">
+  Figure 7. Compose notification - Notification.
+</p>
