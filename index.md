@@ -350,7 +350,7 @@ Right after that, your app will receive the notification, and it will look simil
   Figure 10. A message from Akatsuki is shown as a new notification.
 </p>
 
-Since we are using a free tool as FCM, sometimes it might take a while for the notification to arrive. You can also track your sent message by clicking again on Cloud Messaging as shown in figure 11.
+Since we are using a free tool as FCM, sometimes it might take a while for the notification to arrive. You can also track your sent messages by clicking again on Cloud Messaging as shown in figure 11.
 <p align="center">
   <img src="images/firebase9.PNG" width="950" />
 </p>
