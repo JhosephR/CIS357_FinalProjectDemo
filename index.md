@@ -232,3 +232,25 @@ Next, we need to create the channel id, and channel name.
 const val channelId = "notification_channel"
 const val channelName = "edu.gvsu.cis.notificationfirebasemessagingdemo"
 ```
+
+Do not forget to change the channelName with the name of your package.
+
+**Step 26:** Use NotificationCompat.Builder object to set the notification’s content and channel by adding the following in the generateNotification function:
+```kotlin
+var builder: NotificationCompat.Builder = NotificationCompat.Builder(applicationContext, channelId)
+    .setSmallIcon(R.drawable.image_name)
+    .setAutoCancel(true)
+    .setVibrate(longArrayOf(1000,1000,1000,1000))
+    .setOnlyAlertOnce(true)
+    .setContentIntent(pendingIntent)
+```
+
+Change image_name with the name of the image that we added earlier. setAutoCancel automatically removes the notification when the user taps it. setVibrate will set the device vibration, which in this case the device will vibrate for 1 second, relax for 1 second, vibrate again for 1 second, and finally relax for 1 second. setOnlyAlertOnce will alert the notification only once. setContentIntent will pass the pending activity created above.
+
+Now, we need to attach it with the notification’s layout that we previously built (Figure 5).
+
+**Step 27:** Add the following after the above code:
+```kotlin
+builder = builder.setContent(getRemoteView(title,message))
+```
+
