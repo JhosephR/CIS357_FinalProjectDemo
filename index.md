@@ -315,7 +315,7 @@ After successfully running the app, the only thing left to do is to send a notif
 
 **Step 33:** Click on the Send your first message button and follow the instructions.
 <p align="center">
-  <img src="images/firebase5.PNG" width="500" />
+  <img src="images/firebase5.PNG" width="800" />
 </p>
 <p align="center">
   Figure 7. Compose notification - Notification.
@@ -325,7 +325,7 @@ You can skip the optional fields, and press the Next button.
 
 **Step 34:** Select your package name as shown below and click on Next.
 <p align="center">
-  <img src="images/firebase7.PNG" width="500" />
+  <img src="images/firebase7.PNG" width="800" height="350" />
 </p>
 <p align="center">
   Figure 8. Compose notification - Target.
