@@ -254,3 +254,26 @@ Now, we need to attach it with the notification’s layout that we previously bu
 builder = builder.setContent(getRemoteView(title,message))
 ```
 
+You will see an error because we have yet to create the getRemoteView function.
+
+**Step 28:** Create the getRemoteView as the following:
+```kotlin
+@SuppressLint("RemoteViewLayout")
+fun getRemoteView(title: String, message: String): RemoteViews {
+    val remoteView = RemoteViews("edu.gvsu.cis.notificationfirebasemessagingdemo", R.layout.notification)
+    remoteView.setTextViewText(R.id.title,title)
+    remoteView.setTextViewText(R.id.message,message)
+    remoteView.setImageViewResource(R.id.app_logo,R.drawable.akatzuki1)
+
+    return remoteView
+}
+```
+
+This will map the layout to the title and message of the notification, and will return the remote view.
+
+Afterwards, we need to create the notification manager.
+
+**Step 29:** Add the following line of code within the generateNotification function:
+```kotlin
+val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+```
