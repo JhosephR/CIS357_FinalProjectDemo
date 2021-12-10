@@ -48,7 +48,7 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 ```markdown
 classpath 'com.google.gms:google-services:4.3.10'
 ```
-<span style="color:blue">some *blue* classpath 'com.google.gms:google-services:4.3.10'</span>.
+<p>Some Markdown text with <span style="color:blue">some <em>blue</em> classpath 'com.google.gms:google-services:4.3.10'</span>.</p>
 
 
 
