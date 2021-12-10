@@ -4,12 +4,18 @@
 
 This tutorial is a simple application that uses the user interface of Notifications from Android, and Cloud Messaging services from Firebase in Kotlin. Firebase – Cloud Messaging (FCM) is a solution for sending messages across devices, and notification across platforms for free. In this project, we will show how to create a notification and send a message using this service.
 
-![](images/virtual_phone.JPG)&nbsp;&nbsp;&nbsp;&nbsp;![](images/virtual_phone2.JPG)
+<p float="left">
+  <img src="images/virtual_phone.JPG" width="252" />
+  <img src="images/virtual_phone2.JPG" width="250" />
+</p>
 **Figure 1. Final product. Notification box on the left, and notification layout on the right.** 
 
 ## Getting Started
 
 We will be using Android Studio. To download it, go to this link: (https://developer.android.com/studio)
+
+**Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select Empty Activity.
+![]images/Android_studio2.JPG
 
 ```markdown
 Syntax highlighted code block
