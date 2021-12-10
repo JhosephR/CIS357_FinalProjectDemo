@@ -45,20 +45,20 @@ We will be using Android Studio. To download it, go to this link: "https://devel
 
 **Step 7:** Add the following to your Project-level **build.gradle.**
 ```kotlin
-<p>classpath <span style="color:green"> 'com.google.gms:google-services:4.3.10'</span>.</p>
+classpath 'com.google.gms:google-services:4.3.10'
 ```
 
 **Step 8:** Add the following at the bottom of your App-level build.graddle.
 ```kotlin
-<p>apply <span style="color:green"> plugin: 'com.android.application'</span>.</p>
-<p>apply <span style="color:green"> plugin: 'com.google.gms.google-services'</span>.</p>
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 ```
  
 **Step 9:** Add the following inside of the dependencies block of your App-level build.graddle.
 ```kotlin
-<p>implementation <span style="color:green"> 'com.google.firebase:firebase-messaging-ktx'</span>.</p>
-<p>implementation <span style="color:green">'com.google.firebase:firebase-messaging-ktx:23.0.0'</span>.</p>
-<p>implementation <span style="color:green">'com.google.firebase:firebase-analytics-ktx'</span>.</p>
+implementation 'com.google.firebase:firebase-messaging-ktx'
+implementation 'com.google.firebase:firebase-messaging-ktx:23.0.0'
+implementation 'com.google.firebase:firebase-analytics-ktx'
 ```
 
 **Step 10:** Finally, press “Sync now” at the top right corner in the bar that appears in the IDE. Then, press the Next and Continue to console buttons. Now we are ready to start coding.
