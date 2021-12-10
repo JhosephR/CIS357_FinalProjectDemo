@@ -82,9 +82,33 @@ Let’s begin by modifying the layout file.
 Of course, customize it with your desired text and textColor. You will obtain this:
 <p align="center">
   <img src="images/Android_studio3.JPG" width="700" alt="Sublime's custom image" />
+</p>
+<p align="center">
   Figure 4. Layout of activity_main.xml.
 </p>
- 
+
+Now, in order to use FCM, we need to do some changes in the manifest file.
+
+**Step 12:** Open AndroidManifest.xml, which can be found under the manifests folder, and paste the following code inside the application block, but outside of the activity block:
+
+```Kotlin
+<service
+    android:name=".MyFirebaseMessagingService"
+    android:exported="false"
+    tools:ignore="Instantiatable">
+    <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+    </intent-filter>
+</service>
+
+```
+
+Upon pasting the above code, you will see an error because we have yet to create a class called MyFirebaseMessagingService.
+
+**Step 13:**  Let’s create it by selecting your package name folder, right click and go to New>Kotlin Class/File. Name it MyFirebaseMessagingService, and double click on Class.
+
+**Step 14:** Next, add the following code in your AndroidManifest.xml within the application block, and before the activity block:
+
  
  
  
