@@ -325,7 +325,7 @@ You can skip the optional fields, and press the Next button.
 
 **Step 34:** Select your package name as shown below and click on Next.
 <p align="center">
-  <img src="images/firebase7.PNG" width="750" height="500" />
+  <img src="images/firebase7.PNG" width="800" height="400" />
 </p>
 <p align="center">
   Figure 8. Compose notification - Target.
