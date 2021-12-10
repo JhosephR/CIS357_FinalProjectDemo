@@ -218,7 +218,17 @@ Now, let’s create an intent for the user notification.
 **Step 24:** Add the following code within the function we recently created:
 ```kotlin
 val intent = Intent(this, MainActivity::class.java)
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) //Clear all activity on activity stack, and puts this activity at the top
+intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
 
-        val pendingIntent = PendingIntent.getActivity(this,0,intent, PendingIntent.FLAG_ONE_SHOT)
+val pendingIntent = PendingIntent.getActivity(this,0,intent, PendingIntent.FLAG_ONE_SHOT)
+```
+
+On line 1, intent will jump from this to the MainActivity. Line 2 will add a flag that will clear all activities on the activity stack, and it will put this activity at the top. Line 4 will let us use a coming intent in the future, and FLAG_ONE_SHOT indicates to use this activity only once after user taps on the notification, and the activity gets destroyed.
+
+Next, we need to create the channel id, and channel name.
+
+**Step 25:** Create the constant values before the beginning of class MyFirebaseMessagingService. Give it a name, and your package name.
+```kotlin
+const val channelId = "notification_channel"
+const val channelName = "edu.gvsu.cis.notificationfirebasemessagingdemo"
 ```
