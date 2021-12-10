@@ -21,6 +21,13 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 2:** Give it a name, which in this case I chose *NotificationFirebaseMessagingDemo*. A desired Package name. Choose Language Kotlin, and a Minimum SDK of API 28: Android 9.0 (Pie), and press Finish.
 
+**Step 3:** Connect our app to Firebase. Simply go to (https://console.firebase.google.com) with your google account and create a new project. Follow the steps until you get a message saying: *“Your new project is ready”*, and press the Continue button.
+
+Step 4: Once your project is created click on the Android logo near the middle level of “Project Overview” page.
+
+Step 5: Now, let’s give it a desired package name. I chose “CIS357FinalProject”. You can leave empty the fields of App nickname (optional), and Debug signing certificate SHA-1 (optional). Make sure it matches the package identifier in your project’s manifest.xml. Click on Register app button.
+
+Step 6: Download the google-services.json file to your gradle build directory (the app sub-directory.) as shown in figure 3. Then, click on Next button.
 
 
 
