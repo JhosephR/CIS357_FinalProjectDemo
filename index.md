@@ -45,6 +45,9 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 7:** Add the following to your Project-level **build.gradle.**
 
+```markdown
+classpath 'com.google.gms:google-services:4.3.10'
+```
 
 
 
