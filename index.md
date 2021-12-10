@@ -277,3 +277,35 @@ Afterwards, we need to create the notification manager.
 ```kotlin
 val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 ```
+
+**Step 30:** Check if the client’s Android version is greater than or equal to Android Pie and show the notification within generateNotification function with the following:
+```kotlin
+if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+    val notificationChannel = NotificationChannel(channelId, channelName,  NotificationManager.IMPORTANCE_HIGH)
+    notificationManager.createNotificationChannel(notificationChannel)
+}
+
+notificationManager.notify(0,builder.build())
+```
+
+If true, it will create a notification channelId and a channelName with importance priority high. Then, it make the notification appear using the notificationManager.notify() object.
+
+Thereafter, we will show the notification by creating a new function.
+
+**Step 31:** Create another function called onMessageReceived with the following:
+```kotlin
+override fun onMessageReceived(remoteMessage: RemoteMessage) {
+    if (remoteMessage.getNotification() != null) {
+        generateNotification(remoteMessage.notification!!.title!!, remoteMessage.notification!!.body!!)
+    }
+}
+```
+
+This will receive the notification and call the respective functions. At this point, go ahead and run the app.
+
+After successfully running the app, the only thing left to do is to send a notification from the Firebase console.
+
+**Step 32:** Switch over to the Firebase project we previously created, and click on Cloud Messaging under Engage as shown in figure 6.
+<p align="center">
+  <img src="images/firebase6.PNG" width="700" />
+</p>
