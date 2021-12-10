@@ -357,7 +357,7 @@ Since we are using a free tool as FCM, sometimes it might take a while for the n
   Figure 11. Cloud Messaging.
 </p>
 
-This tutorial is based on “Create a Notification” from (https://developer.android.com/training/notify-user/build-notification), “Set up an Android client” and “Send a test message” from (https://firebase.google.com/docs/cloud-messaging/android/client) 
+This tutorial is based on “Create a Notification” from "https://developer.android.com/training/notify-user/build-notification", “Set up an Android client” and “Send a test message” from "https://firebase.google.com/docs/cloud-messaging/android/client"
 
 ## Further Discussion/Conclusions
 
