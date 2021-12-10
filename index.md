@@ -15,8 +15,7 @@ This tutorial is a simple application that uses the user interface of Notificati
 We will be using Android Studio. To download it, go to this link: (https://developer.android.com/studio)
 
 **Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
-![](images/Android_studio2.JPG)
-<img src="images/Android_studio2.JPG" width="400" />
+<img src="images/Android_studio2.JPG" width="500" />
 **Figure 2. Select Empty Activity**
 
 **Step 2:** Give it a name, which in this case I chose *NotificationFirebaseMessagingDemo*. A desired Package name. Choose Language Kotlin, and a Minimum SDK of API 28: Android 9.0 (Pie), and press Finish.
