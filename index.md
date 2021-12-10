@@ -44,8 +44,9 @@ We will be using Android Studio. To download it, go to this link: "https://devel
 </p>
 
 **Step 7:** Add the following to your Project-level **build.gradle.**
-
+```kotlin
 <p>classpath <span style="color:green"> 'com.google.gms:google-services:4.3.10'</span>.</p>
+```
 
 **Step 8:** Add the following at the bottom of your App-level build.graddle.
 ```kotlin
