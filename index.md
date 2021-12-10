@@ -56,7 +56,9 @@ Step 9: Add the following inside of the dependencies block of your App-level bui
 <p>implementation <span style="color:green">'com.google.firebase:firebase-messaging-ktx:23.0.0'</p>
 <p>implementation <span style="color:green">'com.google.firebase:firebase-analytics-ktx'</p>
 
-
+**Step 10:** Finally, press “Sync now” at the top right corner in the bar that appears in the IDE. Then, press the Next and Continue to console buttons. Now we are ready to start coding.
+  
+  
 ```markdown
 Syntax highlighted code block
 
