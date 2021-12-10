@@ -16,7 +16,9 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 
 **Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
 
-<img src="images/Android_studio2.JPG" width="800" />
+<p float="center">
+  <img src="images/Android_studio2.JPG" width="800" />
+</p>
 **Figure 2. Select Empty Activity**
 
 **Step 2:** Give it a name, which in this case I chose *NotificationFirebaseMessagingDemo*. A desired Package name. Choose Language Kotlin, and a Minimum SDK of API 28: Android 9.0 (Pie), and press Finish.
