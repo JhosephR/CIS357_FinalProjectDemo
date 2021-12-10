@@ -214,6 +214,6 @@ fun generateNotification(title: String, message: String) {
 ```
 
 Now, let’s create an intent for the user notification.
-<p>classpath <span style="color:green"> 'com.google.gms:google-services:4.3.10'</span>.</p>
-<p> <span style="color:green">**Step 24:**</span>.</p> Add the following code within the function we recently created:
+
+<p><span style="color:blue">Step 24:</span>.</p> Add the following code within the function we recently created:
 
