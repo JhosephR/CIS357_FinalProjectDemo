@@ -307,7 +307,7 @@ After successfully running the app, the only thing left to do is to send a notif
 
 **Step 32:** Switch over to the Firebase project we previously created, and click on Cloud Messaging under Engage as shown in figure 6.
 <p align="center">
-  <img src="images/firebase6.PNG" width="700" />
+  <img src="images/firebase6.PNG" width="900" />
 </p>
 <p align="center">
   Figure 6. Firebase Console.
@@ -319,4 +319,14 @@ After successfully running the app, the only thing left to do is to send a notif
 </p>
 <p align="center">
   Figure 7. Compose notification - Notification.
+</p>
+
+You can skip the optional fields, and press the Next button.
+
+**Step 34:** Select your package name as shown below and click on Next.
+<p align="center">
+  <img src="images/firebase7.PNG" width="500" />
+</p>
+<p align="center">
+  Figure 8. Compose notification - Target.
 </p>
