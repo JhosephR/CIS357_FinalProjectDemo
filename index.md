@@ -78,6 +78,21 @@ Let’s begin by modifying the layout file.
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 ```
+
+```Android Studio
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome to Final Demo App!"
+    android:textSize="40dp"
+    android:padding="20dp"
+    android:textColor="#6320EE"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+```
 Of course, customize it with your desired text and textColor. You will obtain this:
 <p align="center">
   <img src="images/Android_studio3.JPG" width="700" alt="Sublime's custom image" />
