@@ -91,7 +91,7 @@ Now, in order to use FCM, we need to do some changes in the manifest file.
 
 **Step 12:** Open AndroidManifest.xml, which can be found under the manifests folder, and paste the following code inside the application block, but outside of the activity block:
 
-```Kotlin
+```kotlin
 <service
     android:name=".MyFirebaseMessagingService"
     android:exported="false"
@@ -109,7 +109,7 @@ Upon pasting the above code, you will see an error because we have yet to create
 
 **Step 14:** Next, add the following code in your AndroidManifest.xml within the application block, and before the activity block:
 
-```Kotlin
+```kotlin
 <meta-data
     android:name="com.google.firebase.messaging.default_notification_icon"
     android:resource="@drawable/image_name" />
@@ -117,3 +117,19 @@ Upon pasting the above code, you will see an error because we have yet to create
     android:name="com.google.firebase.messaging.default_notification_color"
     android:resource="@color/colorAccent" />
 ```
+
+You will notice 2 errors. We need to add an image to use as the notification logo, and choose a color.
+
+**Step 15:** To do this, you need to have a desired image file in your computer. Copy it, and paste it under res/drawable folder in Android Studio. Then replace the above image_name with the name of the image that we recently added to the drawable folder.
+
+**Step 16:** Then, choose a desired color to replace colorAccent. I chose the default color purple_700.
+
+We are now ready to work with the notification.
+
+**Step 17:** Open MyFirebaseMessagingService.kt and extend it like this:
+
+```kotlin
+class MyFirebaseMessagingService : FirebaseMessagingService() {
+}
+```
+
