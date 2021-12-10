@@ -330,3 +330,21 @@ You can skip the optional fields, and press the Next button.
 <p align="center">
   Figure 8. Compose notification - Target.
 </p>
+
+**Step 35:** Click on Next for Scheduling, and Conversion events. Then, press the Review button under Additional options.
+
+**Step 36:** Click on the publish button as shown in figure 9, and switch over to your Android app.
+<p align="center">
+  <img src="images/firebase8.PNG" width="500" />
+</p>
+<p align="center">
+  Figure 9. Compose notification – Review message.
+</p>
+
+Right after that, your app will receive the notification, and it will look similar to figure 10.
+<p align="center">
+  <img src="images/virtual_phone.JPG" width="500" />
+</p>
+<p align="center">
+  Figure 10. A message from Akatsuki is shown as a new notification.
+</p>
