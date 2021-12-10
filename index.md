@@ -64,7 +64,7 @@ Let’s begin by modifying the layout file.
 
 **Step 11:** Open activity_main.xml, which can be found within the layout folder. Let’s customize the default Text View with the following values:
 
-```markdown
+```kotlin
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
