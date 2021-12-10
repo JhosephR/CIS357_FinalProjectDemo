@@ -196,3 +196,24 @@ android:layout_height="match_parent">
 ```
 
 Your notification will look similar to this:
+
+<p align="center">
+    <img src="images/Android_studio4.JPG" width="700" />
+</p>
+<p align="center">
+  Figure 5. Layout of notification.xml.
+</p>
+
+Every notification needs to respond with an intent after a tap. To do this, we will use PendingIntent and setContentIntent() 
+
+**Step 23:** Go to MyFirebaseMessagingService.kt and create a generateNotification function with the following parameters:
+
+```kotlin
+fun generateNotification(title: String, message: String) {
+}
+
+Now, let’s create an intent for the user notification.
+
+**Step 24:** Add the following code within the function we recently created:
+
+```
