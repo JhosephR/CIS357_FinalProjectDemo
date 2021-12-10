@@ -17,7 +17,7 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 **Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
 
 <p float="center">
-  <img src="images/Android_studio2.JPG" width="800" />
+  <img src="images/Android_studio2.JPG" width="800" alt="Sublime's custom image" />
 </p>
 **Figure 2. Select Empty Activity**
 
