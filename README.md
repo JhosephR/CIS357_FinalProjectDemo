@@ -2,10 +2,8 @@
 
  ## CIS 357 Final project
 
-Tutorial on how to create this application is: [here].
+Github Pages "How to tutorial" can be found  : [here](https://jhosephr.github.io/CIS357_FinalProjectDemo/).
 
 Same tutorial easier to read as PDF is found : [here].
 
-The Google slide presentation can be found   : [here].
-
-Video demo presentation of project is found  : [here].
+The Google slide presentation can be found   : [here](https://docs.google.com/presentation/d/1_2uQAczzStdwTZWum--UArCTR_wSTqdRs_VFks9YJR8/edit?usp=sharing).
