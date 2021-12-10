@@ -8,18 +8,25 @@ This tutorial is a simple application that uses the user interface of Notificati
   <img src="images/virtual_phone.JPG" width="252" alt="Sublime's custom image" />
   <img src="images/virtual_phone2.JPG" width="250" />
 </p>
-**Figure 1. Final product. Notification box on the left, and notification layout on the right.** 
+
+<p align="center">
+  **Figure 1. Final product. Notification box on the left, and notification layout on the right.** 
+</p>
 
 ## Getting Started
 
 We will be using Android Studio. To download it, go to this link: (https://developer.android.com/studio)
 
-**Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
+<p align="center">
+  **Step 1:** Open Android Studio. Create a new project by clicking on New Project. Then select *Empty Activity.*
+</p>
 
 <p align="center">
   <img src="images/Android_studio2.JPG" width="800" alt="Sublime's custom image" />
 </p>
-**Figure 2. Select Empty Activity**
+<p align="center">
+  **Figure 2. Select Empty Activity**
+</p>
 
 **Step 2:** Give it a name, which in this case I chose *NotificationFirebaseMessagingDemo*. A desired Package name. Choose Language Kotlin, and a Minimum SDK of API 28: Android 9.0 (Pie), and press Finish.
 
@@ -34,8 +41,9 @@ We will be using Android Studio. To download it, go to this link: (https://devel
 <p align="center">
   <img src="images/Firebase3.JPG" width="700" alt="Sublime's custom image" />
 </p>
-
-**Figure 3. Download the JSON file.**
+<p align="center">
+  **Figure 3. Download the JSON file.**
+</p>
 
 **Step 7:** Add the following to your Project-level **build.gradle.**
 
