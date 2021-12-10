@@ -359,7 +359,7 @@ Since we are using a free tool as FCM, sometimes it might take a while for the n
 
 This tutorial is based on “Create a Notification” from (https://developer.android.com/training/notify-user/build-notification), “Set up an Android client” and “Send a test message” from (https://firebase.google.com/docs/cloud-messaging/android/client) 
 
-##Further Discussion/Conclusions
+## Further Discussion/Conclusions
 
 Finally, once you tap on the received notification, you will be directed to the home page of your app. Notice that before sending a message through Firebase, you need to have your app up and running. Otherwise, you will not receive a notification until the next time you run/open your app. Also, this tutorial was created with a targeting audience of Android 9.0 Pie or greater. 
 
