@@ -362,9 +362,9 @@ This tutorial is based on “Create a Notification” from "https://developer.an
 
 ## Further Discussion/Conclusions
 
-Finally, once you tap on the received notification, you will be directed to the home page of your app. Notice that before sending a message through Firebase, you need to have your app up and running. Otherwise, you will not receive a notification until the next time you run/open your app. Also, this tutorial was created with a targeting audience of Android 9.0 Pie or greater. 
+Lastly, once you tap on the received notification, you will be directed to the home page of your app. Notice that before sending a message through Firebase, you need to have your app up and running. Otherwise, you will not receive a notification until the next time you run/open your app. Also, this tutorial was created with a targeting audience of Android 9.0 Pie or greater. 
 
-Lastly, this is how we use Android Studio, and Firebase Cloud Messaging to create, send and receive notifications.
+Finally, below is the video demo where I show the use of Android Studio, and Firebase Cloud Messaging to create, send and receive notifications.
 
 <p align="center">
   <video src="video/appDemo.mkv" controls="controls" style="max-width: 1000px;">
