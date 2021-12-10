@@ -79,7 +79,7 @@ Let’s begin by modifying the layout file.
     app:layout_constraintTop_toTopOf="parent" />
 ```
 
-```Android Studio
+```Android
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
